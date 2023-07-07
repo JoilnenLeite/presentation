@@ -197,8 +197,8 @@
 		
 		
 			<article>
-				<h3>Video example: Vimeo via iframe</h3>
-				<iframe src="http://player.vimeo.com/video/15612525?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<h3>3D example</h3>
+				<iframe src="https://threejs.org/examples/#webgl_animation_skinning_blending" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			</article>		
 
 			<article>
