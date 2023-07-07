@@ -64,114 +64,148 @@
 
 			<article>
 				<h3> Computação Gráfica Offline </h3>
-                <p> É caracterizada pela a geração de imagens 
-                de alta qualidade mas de síntase lenta, mais 
-                utilizada para se criar filmes e vídeos, 
-                ou figuras em papel como posters e imagens 
-                estáticas em geral.</p>
-			</article>
-
-			<article>
-				<h3>Objetivos deste Trabalho</h3>
 				<ul class="build">
-                    <li> Criação de um protótipo de Aplicação 3D 
-                        em Tempo Real baseado em Ferramentas Open Source </li>
-                    <li> Criação de um Roteiro para o desenvolvimento deste tipo de
-                        Aplicação. </li>
-                </ul>
-			</article>
-		</section>
-		
-		<section>
-			<header>Fundamentação Teórica</header>		
-			<article>
-				<h3>Fundamentação Teórica</h3>
-				<ul>
-                    <li> Geometria, <b> Qual a geometria da CG ?</b> </li>
-                </ul>
+                    <li> É caracterizada pela a geração de imagens 
+                de alta qualidade mas de síntese lenta.
+                    <li>
+                Utilizada com maior frequência na criação de
+                filmes, vídeos, ou figuras em papel como
+                posters e imagens estáticas em geral.</li>
+				    </li>
+                    <li> Não é interativa </li>
+                <ul>
 			</article>
 
 			<article>
-				<h3>Geometrias</h3>
+				<h3> Exemplo de Computação Gráfica Offline </h3>
+                    <iframe src="assets/videos/jibaro.mp4" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<div class='source'>Source: https://www.youtube.com/@scenewelove8291</div>
+             </article>
 
+			<article>
+				<h3> Computação Gráfica em Tempo Real </h3>
 				<ul class="build">
-                    <li> Euclidiana (Euclidiana) </li>
-                    <li> Carteziana (Analítica) </li>
-                    <li> De Transformaçoes (Transformações Afins ou Geometria Afim)</li>
-                </ul>
+                    <li> A qualidade das imagens está intimamente
+                ligada com algorítmos e hardware empregado, o poder
+                de processamento da GPU é importante aqui.
+                    <li>
+                Utilizada com maior frequência na criação de
+                aplicações em tempo real, com aplicações de 
+                visualisação científica, simulações atmosféricas e
+                aero espacial, projetos mecânicos e arquitetônicos e 
+                na indústria de jogos eletrônicos entre outros.
+                posters e imagens estáticas em geral.</li>
+				    </li>
+                    <li> É interativa </li>
+                <ul>
 			</article>
-
-			<article class='smaller'>
-				<h3>Cheat Sheet – Shortcuts (incl. presenter mode)</h3>
-
-				<table>
-					<tr>
-						<th>Key</th>
-						<th>Function</th>
-					</tr>
-					<tr>
-						<td>enter/space/right arrow</td>
-						<td>advance</td>
-					</tr>
-					<tr>
-						<td>backspace/left arrow</td>
-						<td>go back</td>
-					</tr>
-					<tr>
-						<td>g</td>
-						<td>prompt: go to slide</td>
-					</tr>
-					<tr>
-						<td>home/pos1</td>
-						<td>jump to start slide</td>
-					</tr>
-					<tr>
-						<td>end</td>
-						<td>jump to end slide</td>
-					</tr>
-					<tr>
-						<td>shift +/-</td>
-						<td>zoom in/out</td>
-					</tr>
-					<tr>
-						<td>F11</td>
-						<td>fullscreen mode</td>
-					</tr>
-					<tr>
-						<td>n</td>
-						<td>show/hide presenter notes</td>
-					</tr>
-					<tr>
-						<td>t</td>
-						<td>toggle transitions</td>
-					</tr>
-					<tr>
-						<td>p</td>
-						<td>open presenter frame</td>
-					</tr>
-					<tr>
-						<td>.</td>
-						<td>sneak forward in presenter frame</td>
-					</tr>
-					<tr>
-						<td>,</td>
-						<td>sneak backward in presenter frame</td>
-					</tr>
-				</table>
-			</article>
-		</section>
-	
-		<section>
-			<header>Enredo do Protótipo</header>
-			
 			<article>
-				<h2>Images, Videos &amp; Websites</h2>
-			</article>			
+				<h3> Exemplo de Computação Gráfica em Tempo Real </h3>
+                    <iframe src="assets/videos/jibaro.mp4" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<div class='source'>Source: https://www.youtube.com/@scenewelove8291</div>
+             </article>
 
-			<article>
-				<h3>Slide with an image</h3>
-				<p>
-					<img style='height: 400px' src='assets/images/social_viz2.jpg'>
+                <article>
+                    <h3>Objetivos deste Trabalho</h3>
+                    <ul class="build">
+                        <li> Criação de um protótipo de Aplicação 3D 
+                            em Tempo Real baseado em Ferramentas Open Source </li>
+                        <li> Criação de um Roteiro para o desenvolvimento deste tipo de
+                            Aplicação. </li>
+                    </ul>
+                </article>
+            </section>
+            
+            <section>
+                <header>Fundamentação Teórica</header>		
+                <article>
+                    <h3>Fundamentação Teórica</h3>
+                    <ul>
+                        <li> Geometria, <b> Qual a geometria da CG ?</b> </li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Geometrias</h3>
+
+                    <ul class="build">
+                        <li> Euclidiana (Euclidiana) </li>
+                        <li> Carteziana (Analítica) </li>
+                        <li> De Transformaçoes (Transformações Afins ou Geometria Afim)</li>
+                    </ul>
+                </article>
+
+                <article class='smaller'>
+                    <h3>Cheat Sheet – Shortcuts (incl. presenter mode)</h3>
+
+                    <table>
+                        <tr>
+                            <th>Key</th>
+                            <th>Function</th>
+                        </tr>
+                        <tr>
+                            <td>enter/space/right arrow</td>
+                            <td>advance</td>
+                        </tr>
+                        <tr>
+                            <td>backspace/left arrow</td>
+                            <td>go back</td>
+                        </tr>
+                        <tr>
+                            <td>g</td>
+                            <td>prompt: go to slide</td>
+                        </tr>
+                        <tr>
+                            <td>home/pos1</td>
+                            <td>jump to start slide</td>
+                        </tr>
+                        <tr>
+                            <td>end</td>
+                            <td>jump to end slide</td>
+                        </tr>
+                        <tr>
+                            <td>shift +/-</td>
+                            <td>zoom in/out</td>
+                        </tr>
+                        <tr>
+                            <td>F11</td>
+                            <td>fullscreen mode</td>
+                        </tr>
+                        <tr>
+                            <td>n</td>
+                            <td>show/hide presenter notes</td>
+                        </tr>
+                        <tr>
+                            <td>t</td>
+                            <td>toggle transitions</td>
+                        </tr>
+                        <tr>
+                            <td>p</td>
+                            <td>open presenter frame</td>
+                        </tr>
+                        <tr>
+                            <td>.</td>
+                            <td>sneak forward in presenter frame</td>
+                        </tr>
+                        <tr>
+                            <td>,</td>
+                            <td>sneak backward in presenter frame</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+        
+            <section>
+                <header>Enredo do Protótipo</header>
+                
+                <article>
+                    <h2>Images, Videos &amp; Websites</h2>
+                </article>			
+
+                <article>
+                    <h3>Slide with an image</h3>
+                    <p>
+                        <img style='height: 400px' src='assets/images/social_viz2.jpg'>
 				</p>
 				<div class='source'>Source: Benjamin Erb</div>
 			</article>
