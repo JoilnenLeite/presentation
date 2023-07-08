@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 
+<!--
     Autor: Joilnen Batista Leite
 -->
 <html>
@@ -17,7 +17,7 @@
 <body style='display: none'>
 
 	<div class='slides layout-normal template-uulm-in'>
-		<!-- 
+		<!--
 			Your slides (<article>s) go here. You can group them using <section>s
 			Every slide must be part of a section. If a section contains a <header>,
 			its content will be used as TOC label. If you don't want to group your
@@ -34,17 +34,17 @@
 				Baseada em Ferramentas Open Source
 				</h2>
 				<p>
-					<img id="title-header" src='assets/images/header_sample.jpg'> 
+					<img id="title-header" src='assets/images/header_sample.jpg'>
 					<img id="uulm-logo" src='lib/uulm/ufes.svg'>
 				</p>
 			</article>
-		
+
 			<article>
 				<h3>Sumário</h3>
 				<nav class="toc" />
 			</article>
 		</section>
-		
+
 		<section>
 			<header>Importância do Tema</header>
 			<article>
@@ -65,7 +65,7 @@
 			<article>
 				<h3> Computação Gráfica Offline </h3>
 				<ul class="build">
-                    <li> É caracterizada pela a geração de imagens 
+                    <li> É caracterizada pela a geração de imagens
                 de alta qualidade mas de síntese lenta.
                     <li>
                 Utilizada com maior frequência na criação de
@@ -90,12 +90,11 @@
                 de processamento da GPU é importante aqui.
                     <li>
                 Utilizada com maior frequência na criação de
-                aplicações em tempo real, com aplicações de 
+                aplicações em tempo real, com aplicações de
                 visualisação científica, simulações atmosféricas e
-                aero espacial, projetos mecânicos e arquitetônicos e 
+                aero espacial, projetos mecânicos e arquitetônicos e
                 na indústria de jogos eletrônicos entre outros.
-                posters e imagens estáticas em geral.</li>
-				    </li>
+				            </li>
                     <li> É interativa </li>
                 <ul>
 			</article>
@@ -114,16 +113,16 @@
                 <article>
                     <h3>Objetivos deste Trabalho</h3>
                     <ul class="build">
-                        <li> Criação de um protótipo de Aplicação 3D 
+                        <li> Criação de um protótipo de Aplicação 3D
                             em Tempo Real baseado em Ferramentas Open Source </li>
                         <li> Criação de um Roteiro para o desenvolvimento deste tipo de
                             Aplicação. </li>
                     </ul>
                 </article>
             </section>
-            
+
             <section>
-                <header>Fundamentação Teórica</header>		
+                <header>Fundamentação Teórica</header>
                 <article>
                     <h3>Fundamentação Teórica</h3>
                     <ul>
@@ -200,13 +199,13 @@
                     </table>
                 </article>
             </section>
-        
+
             <section>
                 <header>Enredo do Protótipo</header>
-                
+
                 <article>
                     <h2>Images, Videos &amp; Websites</h2>
-                </article>			
+                </article>
 
                 <article>
                     <h3>Slide with an image</h3>
@@ -242,13 +241,13 @@
 				</video>
 				<div class='source'>Source: http://www.808.dk/</div>
 			</article>
-		
-		
-		
+
+
+
 			<article>
 				<h3>3D example</h3>
 				<iframe src="https://threejs.org/examples/#webgl_animation_skinning_blending" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			</article>		
+			</article>
 
 			<article>
 				<h3>A slide with an embed + title</h3>
@@ -278,14 +277,14 @@
 					<li><a href='http://code.google.com/p/html5slides'>Original Google html5slides</a>
 				</ul>
 			</article>
-		
+
 		</section>
 		<section>
 			<header>Desenvolvimento do Protótipo</header>
-			
+
 			<article>
 				<h2>Images, Videos &amp; Websites</h2>
-			</article>			
+			</article>
 
 			<article>
 				<h3>Slide with an image</h3>
@@ -297,10 +296,10 @@
 		</section>
 		<section>
 			<header>Testes do Protótipo</header>
-			
+
 			<article>
 				<h2>Images, Videos &amp; Websites</h2>
-			</article>			
+			</article>
 
 			<article>
 				<h3>Slide with an image</h3>
@@ -312,10 +311,10 @@
 		</section>
 		<section>
 			<header>Conclusão</header>
-			
+
 			<article>
 				<h2>Images, Videos &amp; Websites</h2>
-			</article>			
+			</article>
 
 			<article>
 				<h3>Slide with an image</h3>
