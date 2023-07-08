@@ -46,7 +46,16 @@
 		</section>
 
 		<section>
-			<header>Importância do Tema</header>
+			<header> Objetivos deste Trabalho </header>
+      <article>
+          <h3> Objetivos deste Trabalho </h3>
+          <ul class="build">
+              <li> Criação de um protótipo de Aplicação 3D
+                  em Tempo Real baseado em Ferramentas Open Source </li>
+              <li> Criação de um Roteiro para o desenvolvimento deste tipo de
+                  Aplicação. </li>
+          </ul>
+      </article>
 			<article>
 				<h3>Importância do Tema</h3>
                 <br>
@@ -92,9 +101,8 @@
                     <li>
                 Utilizada com maior frequência na criação de
                 aplicações em tempo real, como aplicações de
-                visualisação científica, simulações atmosféricas e
-                aero espaciais, projetos mecânicos e arquitetônicos e
-                na indústria de jogos eletrônicos entre outros.
+                visualisação científica, simulações, jogos
+                eletrônicos, etc.
 				            </li>
                     <li> É interativa </li>
                     <li> Um baixo número de polígonos </li>
@@ -112,15 +120,6 @@
 				<div class='source'> Source: https://threejs.org </div>
              </article>
 
-                <article>
-                    <h3>Objetivos deste Trabalho</h3>
-                    <ul class="build">
-                        <li> Criação de um protótipo de Aplicação 3D
-                            em Tempo Real baseado em Ferramentas Open Source </li>
-                        <li> Criação de um Roteiro para o desenvolvimento deste tipo de
-                            Aplicação. </li>
-                    </ul>
-                </article>
             </section>
 
             <section>
@@ -136,69 +135,12 @@
                     <h3>Geometrias</h3>
 
                     <ul class="build">
-                        <li> Euclidiana (Euclidiana) </li>
+                        <li> Euclidiana (Axiomática) </li>
                         <li> Carteziana (Analítica) </li>
-                        <li> De Transformaçoes (Transformações Afins ou Geometria Afim)</li>
+                        <li> Geometria Afim</li>
+                        <li> Geometria Projetiva</li>
+                        <li> Geometria Diferencial</li>
                     </ul>
-                </article>
-
-                <article class='smaller'>
-                    <h3>Cheat Sheet – Shortcuts (incl. presenter mode)</h3>
-
-                    <table>
-                        <tr>
-                            <th>Key</th>
-                            <th>Function</th>
-                        </tr>
-                        <tr>
-                            <td>enter/space/right arrow</td>
-                            <td>advance</td>
-                        </tr>
-                        <tr>
-                            <td>backspace/left arrow</td>
-                            <td>go back</td>
-                        </tr>
-                        <tr>
-                            <td>g</td>
-                            <td>prompt: go to slide</td>
-                        </tr>
-                        <tr>
-                            <td>home/pos1</td>
-                            <td>jump to start slide</td>
-                        </tr>
-                        <tr>
-                            <td>end</td>
-                            <td>jump to end slide</td>
-                        </tr>
-                        <tr>
-                            <td>shift +/-</td>
-                            <td>zoom in/out</td>
-                        </tr>
-                        <tr>
-                            <td>F11</td>
-                            <td>fullscreen mode</td>
-                        </tr>
-                        <tr>
-                            <td>n</td>
-                            <td>show/hide presenter notes</td>
-                        </tr>
-                        <tr>
-                            <td>t</td>
-                            <td>toggle transitions</td>
-                        </tr>
-                        <tr>
-                            <td>p</td>
-                            <td>open presenter frame</td>
-                        </tr>
-                        <tr>
-                            <td>.</td>
-                            <td>sneak forward in presenter frame</td>
-                        </tr>
-                        <tr>
-                            <td>,</td>
-                            <td>sneak backward in presenter frame</td>
-                        </tr>
-                    </table>
                 </article>
             </section>
 
@@ -206,24 +148,10 @@
                 <header>Enredo do Protótipo</header>
 
                 <article>
+                    <h3>Enredo do Protótipo</h3>
                     <h2>Images, Videos &amp; Websites</h2>
                 </article>
 
-                <article>
-                    <h3>Slide with an image</h3>
-                    <p>
-                        <img style='height: 400px' src='assets/images/social_viz2.jpg'>
-				</p>
-				<div class='source'>Source: Benjamin Erb</div>
-			</article>
-
-			<article>
-				<h3>Slide with an image (centered)</h3>
-				<p>
-					<img class='centered' style='height: 400px' src='assets/images/social_viz2.jpg'>
-				</p>
-				<div class='source'>Source: Benjamin Erb</div>
-			</article>
 
 			<article class='fill'>
 				<h3>Image filling the slide (with optional header)</h3>
@@ -244,87 +172,54 @@
 				<div class='source'>Source: http://www.808.dk/</div>
 			</article>
 
-
-
-			<article>
-				<h3>3D example</h3>
-				<iframe src="https://threejs.org/examples/#webgl_animation_skinning_blending" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			</article>
-
-			<article>
-				<h3>A slide with an embed + title</h3>
-				<iframe src='http://www.w3.org/'></iframe>
-			</article>
-
-			<article>
-				<iframe src='http://www.w3.org/'></iframe>
-			</article>
-
-			<article class='fill'>
-				<h3>I'm on a iframe (fullscreen)!</h3>
-				<iframe src='http://www.w3.org/'></iframe>
-			</article>
-			<article>
-				<h3>Credits</h3>
-				<p>Thanks to Luke Mahé and Marcin Wichary for the original Google
-					slides template.</p>
-			</article>
-
-			<article>
-				<h3>That's all for now!</h3>
-
-				<ul>
-					<li>Source: <a href='https://github.com/berb/html5slides-uulm'>github.com/berb/html5slides-uulm</a>
-					<li><a href='http://www.benjamin-erb.de'>Benjamin Erb</a>
-					<li><a href='http://code.google.com/p/html5slides'>Original Google html5slides</a>
-				</ul>
-			</article>
-
 		</section>
+
 		<section>
 			<header>Desenvolvimento do Protótipo</header>
 
 			<article>
-				<h2>Images, Videos &amp; Websites</h2>
+				<h3> Desenvolvimento do Protótipo </h3>
 			</article>
 
-			<article>
-				<h3>Slide with an image</h3>
-				<p>
-					<img style='height: 400px' src='assets/images/social_viz2.jpg'>
-				</p>
-				<div class='source'>Source: Benjamin Erb</div>
-			</article>
 		</section>
+
 		<section>
 			<header>Testes do Protótipo</header>
-
 			<article>
+				<h3> Testes do Protótipo </h3>
 				<h2>Images, Videos &amp; Websites</h2>
 			</article>
 
-			<article>
-				<h3>Slide with an image</h3>
-				<p>
-					<img style='height: 400px' src='assets/images/social_viz2.jpg'>
-				</p>
-				<div class='source'>Source: Benjamin Erb</div>
-			</article>
 		</section>
+
+		<section>
+			<header> Fatos Interessantes </header>
+			<article>
+				<h3> Fatos Interessantes </h3>
+        <ul class="build">
+            <li> Pierre Bezier (França) </li>
+            <li> Paul de Casteljau (França) </li>
+            <li> Cassiopeia (Brazil) </li>
+            <li> Blender (Holanda) </li>
+            <li> Aristides Requicha (Portugal) </li>
+            <li> Tiago Souza (Id Portugal) </li>
+            <li> Pavel Rojitberg (Ogre Polonia) </li>
+            <li> Matias Goldberg (Ogre Argentina) </li>
+            <li> Juan Linietsky e Ariel Manzur (Godot Argentina) </li>
+        </ul>
+
+		</article>
+
+		</section>
+
 		<section>
 			<header>Conclusão</header>
-
 			<article>
-				<h2>Images, Videos &amp; Websites</h2>
+				<h3> Conclusão </h3>
+
+
 			</article>
 
-			<article>
-				<h3>Slide with an image</h3>
-				<p>
-					<img style='height: 400px' src='assets/images/social_viz2.jpg'>
-				</p>
-				<div class='source'>Source: Benjamin Erb</div>
-			</article>
 		</section>
 	</div>
 </body>
