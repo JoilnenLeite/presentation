@@ -34,7 +34,7 @@
 				Baseada em Ferramentas Open Source
 				</h2>
 				<p>
-					<img id="title-header" src='assets/images/header_sample.jpg'>
+					<img id="title-header" src='assets/images/ceunes.jpg'>
 					<img id="uulm-logo" src='lib/uulm/ufes.svg'>
 				</p>
 			</article>
@@ -142,6 +142,85 @@
                         <li> Geometria Diferencial</li>
                     </ul>
                 </article>
+
+                <article>
+                    <h3> Matemática da CG </h3>
+                    <p>
+                        Operações básicas entre vetores e pontos
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <p>
+                        <img class="centered" src='assets/images/opbasicas.png'>
+                    </p>
+                </article>
+
+                <article>
+                    <h3> Matemática da CG </h3>
+                    <p>
+                          Transformações
+                    </p>
+                    <p>
+                        <img class="centered" src='assets/images/matrix.png'>
+                    </p>
+                </article>
+
+                <article>
+                    <h3> Matemática da CG </h3>
+                    <p>
+                          Câmera Virtual
+                    </p>
+                    <p>
+                        <img class="centered" style='height: 400px' src='assets/images/varscam.png'>
+                    </p>
+                </article>
+
+                <article>
+                    <h3> Matemática da CG </h3>
+                    <p>
+                          Câmera Virtual
+                    </p>
+                    <p>
+                        <img class="centered" src='assets/images/matrixcam.png'>
+                    </p>
+                </article>
+
+                <article>
+                    <h3> Algorítmos de Renderização </h3>
+                    <ul class="build">
+                        <li> Detpth Buffer ou Z-Buffer (Memory Bound) </li>
+                        <ul class="build">
+                            <li> A-Buffer </li>
+                        </ul>
+                        <li> Scanline </li>
+                        <li> Warnock </li>
+                        <li> Painter </li>
+                        <li> Ray Tracing (Processor Bound)</li>
+                        <ul class="build">
+                            <li> Ray Casting </li>
+                            <li> Volume Ray Casting </li>
+                        </ul>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3> Ray Tracing </h3>
+                    <p>
+                          Ray Casting algoritmo do tipo Ray Tracing
+                    </p>
+                    <p>
+                        <img class="centered" style='height: 400px' src='assets/images/raycasting.png'>
+                    </p>
+                </article>
+
+                <article>
+                    <h3> Depth Buffer </h3>
+                    <p>
+                        <img class="centered" style='height: 500px' src='assets/images/zbuffer.png'>
+                    </p>
+                </article>
+
             </section>
 
             <section>
@@ -149,48 +228,107 @@
 
                 <article>
                     <h3>Enredo do Protótipo</h3>
-                    <h2>Images, Videos &amp; Websites</h2>
+                    <p> O enredo da aplicação protótipo, trata-se
+                    de uma nave espacial, encontrando estações na
+                    sua viagem de onde retira, combustível, oxigênio
+                    e suprimentos. </p>
                 </article>
+		        </section>
 
+		        <section>
+			      <header>Desenvolvimento do Protótipo</header>
 
-			<article class='fill'>
-				<h3>Image filling the slide (with optional header)</h3>
-				<p>
-					<img src='assets/images/social_viz.jpg'>
-				</p>
-				<div class='source white'>Source: Benjamin Erb</div>
-			</article>
+                <article>
+                  <h3> Desenvolvimento do Protótipo </h3>
+                    <p> Reunião de Ferramentas </p>
+                    <ul>
+                        <li> Blender 3D (software de modelage) </li>
+                        <li> Ogre 3D (Engine Gráfico) </li>
+                        <li> Bullet (Engine Físico) </li>
+                        <li> blender2ogre (Sritp de Exportação) </li>
+                        <li> Miniauido (Biblioteca de Audio) </li>
+                    </ul>
+                </article>
+                <article>
+                  <h3> Desenvolvimento do Protótipo </h3>
+                    <p> Ferramentas Gerais</p>
+                    <ul>
+                        <li> Nvim (Editor de Texto) </li>
+                            <ul>
+                                <li> NerdTree </li>
+                            </ul>
 
+                        <li> GCC (Compilador C/C++) </li>
+                        <li> Clang++(Compilador C++) </li>
+                        <li> Gdb (Debuger) </li>
+                        <li> Git (Gerenciador de Versão) </li>
+                        <li> CMake (Bulder) </li>
+                    </ul>
+                </article>
+                <article>
+                  <h3> Desenvolvimento do Protótipo </h3>
+                    <p> Criação da Aplicação via Programação </p>
+                    <p>
+                        <img class="centered" style='height: 400px' src='assets/images/nvim.png'>
+                    </p>
+                </article>
+                <article>
+                  <h3> Desenvolvimento do Protótipo </h3>
+                    <p> Modelagem via Blender </p>
+                    <p>
+                        <img class="centered" style='height: 400px' src='assets/images/blender.png'>
+                    </p>
+                </article>
+                <article>
+                  <h3> Desenvolvimento do Protótipo </h3>
+                    <p> Aplicação Protótipo após Exportação </p>
+                    <p>
+                        <img class="centered" style='height: 400px' src='assets/images/app.png'>
+                    </p>
+                </article>
+                <article>
+                  <h3> Desenvolvimento do Protótipo </h3>
+                    <p> Adição de Recursos para Exportação </p>
+                    <p>
+                        <img class="centered" style='height: 400px' src='assets/images/fuel.png'>
+                    </p>
+                </article>
+		        </section>
 
-			<article>
-				<h3>Video example: .ogv file + HTML5 video tag</h3>
-				<p></p>
-				<video controls class="centered">
-					<source src='assets/videos/sample.ogv' type='video/ogg; codecs="theora, vorbis"'/>
-					<p>No video fallback</p>
-				</video>
-				<div class='source'>Source: http://www.808.dk/</div>
-			</article>
+            <section>
+            <header>Testes do Protótipo</header>
+            <article>
+                <h3> Testes do Protótipo </h3>
+                <p>
+                    <img class="centered" style='height: 400px' src='assets/images/cams.png'>
+                </p>
 
-		</section>
+             </article>
+            <article>
+                <h3> Testes do Protótipo </h3>
+                <p>
+                    <img class="centered" style='height: 400px' src='assets/images/statistics.png'>
+                </p>
 
-		<section>
-			<header>Desenvolvimento do Protótipo</header>
+             </article>
+            <article>
+                <h3> Engine Godot com pouca carga </h3>
+                <p>
+                    <img class="centered" style='height: 400px' src='assets/images/godot.png'>
+                </p>
 
-			<article>
-				<h3> Desenvolvimento do Protótipo </h3>
-			</article>
+             </article>
+            <article>
+                <h3> Protótipo com carga total </h3>
+                <br>
+                <br>
+                <p>
+                    <img class="centered" style='height: 350px' src='assets/images/prof.png'>
+                </p>
 
-		</section>
+             </article>
 
-		<section>
-			<header>Testes do Protótipo</header>
-			<article>
-				<h3> Testes do Protótipo </h3>
-				<h2>Images, Videos &amp; Websites</h2>
-			</article>
-
-		</section>
+            </section>
 
 		<section>
 			<header> Fatos Interessantes </header>
@@ -199,9 +337,9 @@
         <ul class="build">
             <li> Pierre Bezier (França) </li>
             <li> Paul de Casteljau (França) </li>
+            <li> Aristides Requicha (Portugal) </li>
             <li> Cassiopeia (Brazil) </li>
             <li> Blender (Holanda) </li>
-            <li> Aristides Requicha (Portugal) </li>
             <li> Tiago Souza (Id Portugal) </li>
             <li> Pavel Rojitberg (Ogre Polonia) </li>
             <li> Matias Goldberg (Ogre Argentina) </li>
@@ -216,8 +354,34 @@
 			<header>Conclusão</header>
 			<article>
 				<h3> Conclusão </h3>
+        <p> Dificuldades </p>
+        <ul class="build">
+            <li> Reestruturação do projeto </li>
+            <li> Falta de documentação em alguns tópicos </li>
+            <li> Limitações da Ferramenta que foram sanadas
+            por mim em conjunto com o pessoal o Ogre</li>
+        </ul>
+			</article>
+			<article>
+				<h3> Conclusão </h3>
+        <p> Vantagens </p>
+        <ul class="build">
+            <li> Aprendizado sobre CG </li>
+            <li> Aprendizado sobre C++ </li>
+            <li> Apreendizado sobre Game e Game Engines </li>
+            <li> Criação de uma tecnologia própria </li>
+        </ul>
+			</article>
+			<article>
+				<h3> Conclusão </h3>
 
-
+        <br>
+        <br>
+        <br>
+        <br>
+        <p style="text-align: center">
+        <b>Obrigado</b>
+        </p>
 			</article>
 
 		</section>
