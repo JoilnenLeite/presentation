@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html
 <!--
     Autor: Joilnen Batista Leite
 -->
@@ -242,11 +242,11 @@
                   <h3> Desenvolvimento do Protótipo </h3>
                     <p> Reunião de Ferramentas </p>
                     <ul>
-                        <li> Blender 3D (software de modelage) </li>
+                        <li> Blender 3D (software de modelagem) </li>
                         <li> Ogre 3D (Engine Gráfico) </li>
                         <li> Bullet (Engine Físico) </li>
                         <li> blender2ogre (Sritp de Exportação) </li>
-                        <li> Miniauido (Biblioteca de Audio) </li>
+                        <li> Miniaudio (Biblioteca de Audio) </li>
                     </ul>
                 </article>
                 <article>
