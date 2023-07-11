@@ -69,7 +69,6 @@
 				    </ul>
 					<li>Aplicação da CG em Tempo Real</li>
 				</ul>
-				<div class='source'>Offline Rendering: https://graphics.pixar.com/library/RendermanTog2018/paper.pdf</div>
 			</article>
 
 			<article>
@@ -85,6 +84,7 @@
                     <li> Não é interativa </li>
                     <li> Um alto número de polígonos </li>
                 <ul>
+				<div class='source'>Offline Rendering: https://graphics.pixar.com/library/RendermanTog2018/paper.pdf</div>
 			</article>
 
 			<article>
